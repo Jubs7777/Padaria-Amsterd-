@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <!-- Aqui chamamos nossa section para adicionar informações (tags) á ele -->
+     <section id="form-container">  <!-- Damos um nome para a nossa section a qual chamará "Form-Container" -->
+ 
+        <!--  -->
+        <div class="container">
+
+            <form method="get" action="cad2.php"> <!-- Abrimos aqui nossa TAG de Formulário -->
+
+
+                <h1>Cadastre-se e tenha facilidade e descontos exclusivos</h1>
+                  <!-- Titulo para o nosso formulário -->
+
+
+                <p>Preencha o formúlario abaixo e entraremos em contato com você</p>
+                  <!-- Pequena descrição usando a TAG de Paragráfo -->
+
+
+             <div class="input-single">
+              <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+                  <label for="Nome">Nome Completo</label>  
+                  <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+                  <input type="text"  class="input"  name="nome" autocomplete="off" required id="nome" >  
+                  <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+             </div>
+
+             <div class="input-single">
+                <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+
+                 <label for="tel-fone">Sobrenome</label>
+                 <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+
+                 <input type="text"     class="input"   name="sobrenome"  
+                 autocomplete="off" required id="sobrenome">
+                 <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+            </div>
+
+
+
+              <div class="input-single">
+              <!-- Aqui criamos uma divisão para inserirmos nosso Label e Input (Nome e Caixa) -->
+
+                   <label for="Email">Seu Email</label>
+                     <!-- Aqui colocamos o nome que irá aparecer do lado da nossa caixa (input) -->
+
+                   <input type="email"  class="input"  name="email" autocomplete="off" required id="email">
+                   <!-- Atribuimos que é tipo Text adicionamos um nome para sua classe e desabilitamos a preenchimento automático -->
+
+             </div>
+
+             
+
+
+              <div class="btn">
+
+
+                   <input type="submit" value="Enviar">
+
+
+              </div>
+
+            </form>
+
+            
+
+        </div>
+        
+    </section>
+    
+</body>
+</html>
