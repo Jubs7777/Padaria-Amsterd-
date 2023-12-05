@@ -69,10 +69,11 @@ body {
 
 
 form > .input-single > .input:focus ~ label, /*  */
-form .input-single .input:valid ~ label{ /*  */
+form .input-single .input:valid ~ label { /*  */
     transform: translateY(-25px); /*  */
     font-size: 12px; /*  */
-    color: black; /*  */  }
+    color: black; /*  */  
+   }
 
 
 .btn { /* Aqui estamos chamando nossa Class .btn para estilização */
